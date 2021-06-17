@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		99B90E1A267B31FA0046487F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B90E19267B31FA0046487F /* AppDelegate.swift */; };
 		99B90E1C267B31FA0046487F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B90E1B267B31FA0046487F /* SceneDelegate.swift */; };
-		99B90E1E267B31FA0046487F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B90E1D267B31FA0046487F /* ViewController.swift */; };
 		99B90E21267B31FA0046487F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B90E1F267B31FA0046487F /* Main.storyboard */; };
 		99B90E23267B31FC0046487F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B90E22267B31FC0046487F /* Assets.xcassets */; };
 		99B90E26267B31FC0046487F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B90E24267B31FC0046487F /* LaunchScreen.storyboard */; };
+		99B90E2E267B33350046487F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B90E2D267B33350046487F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99B90E16267B31FA0046487F /* exampleUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B90E19267B31FA0046487F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B90E1B267B31FA0046487F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99B90E1D267B31FA0046487F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99B90E20267B31FA0046487F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99B90E22267B31FC0046487F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B90E25267B31FC0046487F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B90E27267B31FC0046487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B90E2D267B33350046487F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				99B90E19267B31FA0046487F /* AppDelegate.swift */,
 				99B90E1B267B31FA0046487F /* SceneDelegate.swift */,
-				99B90E1D267B31FA0046487F /* ViewController.swift */,
+				99B90E2D267B33350046487F /* MainViewController.swift */,
 				99B90E1F267B31FA0046487F /* Main.storyboard */,
 				99B90E22267B31FC0046487F /* Assets.xcassets */,
 				99B90E24267B31FC0046487F /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B90E1E267B31FA0046487F /* ViewController.swift in Sources */,
+				99B90E2E267B33350046487F /* MainViewController.swift in Sources */,
 				99B90E1A267B31FA0046487F /* AppDelegate.swift in Sources */,
 				99B90E1C267B31FA0046487F /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SD7LJ4VSJV;
 				INFOPLIST_FILE = exampleUITableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YuriMar.exampleUITableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SD7LJ4VSJV;
 				INFOPLIST_FILE = exampleUITableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YuriMar.exampleUITableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
